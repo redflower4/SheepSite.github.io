@@ -41,8 +41,8 @@ p {
     color: #333;
 }
 .button {
-    height: 20%;
-    width: 30%;
+    height: 20px;
+    width: 30px;
     outline: none;
     border: none;
     font-size: 15vw;
