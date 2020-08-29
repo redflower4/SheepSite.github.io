@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sheep Site</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="index.html">Home</a></li>
+	        	<li><a href="sheep.html">Sheep</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    		</ul>
+		</nav>
+		
+		<div class="pageContainer">
+			<div class="titleContainer">
+				<h1>Hi, I'm a contact page of Sheep Site!</h1>  
+			</div>
+			<div class="mainContainer">
+				<form action="mail.php" method="POST">
+          <p>Name</p> <input type="text" name="name">
+          <p>Email</p> <input type="text" name="email">
+          <p>Phone</p> <input type="text" name="phone">
+
+          <p>Website</p> <input type="text" name="website">
+
+          <p>Priority</p>
+          <select name="priority" size="1">
+          <option value="Low">Low</option>
+          <option value="Normal">Normal</option>
+          <option value="High">High</option>
+          <option value="Emergency">Emergency</option>
+          </select>
+          <br />
+
+          <p>Type</p>
+          <select name="type" size="1">
+          <option value="update">Website Update</option>
+          <option value="change">Information Change</option>
+          <option value="addition">Information Addition</option>
+          <option value="new">New Products</option>
+          </select>
+          <br />
+
+          <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+          <input type="submit" value="Send"><input type="reset" value="Clear">
+        </form>
+			</div> 
+		</div>
+		
+		<footer>
+    		<ul>
+        		<li><a href="https://github.com/redflower4">Github: github.com/redflower4</a></li>
+		</ul>
+		</footer>
+	</body>
+</html>
