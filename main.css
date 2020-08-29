@@ -40,6 +40,19 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+.button {
+    height: 20%;
+    width: 30%;
+    outline: none;
+    border: none;
+    font-size: 15vw;
+    color: blue;
+    background-color: white;
+}
+
+    .button:hover {
+        background-color: lightgrey;
+    }
 
 footer {
     border-top: 1px solid #d5d5d5;
