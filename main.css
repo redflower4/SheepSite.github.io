@@ -20,7 +20,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.pageContainer{
+    height: 100%;
+}
 .titleContainer {
+    
 }
 .textContainer {
     height: 60%;
